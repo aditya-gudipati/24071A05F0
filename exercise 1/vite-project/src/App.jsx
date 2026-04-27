@@ -24,7 +24,7 @@ function App() {
         <footer className="footer">
           <div className="footer-content">
             <div className="footer-brand">
-              <h2>University College</h2>
+              <h2>VNRVJIET</h2>
               <p style={{ color: '#cbd5e1' }}>Empowering Tomorrow's Leaders</p>
             </div>
             <div className="footer-links">
