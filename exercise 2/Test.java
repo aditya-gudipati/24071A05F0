@@ -20,7 +20,6 @@ public class Test extends HttpServlet
         double average = total / 5.0;
 
         out.println("<html><body>");
-        out.println("<h1>24071A05F0</h1>");
         out.println("<h2>Result</h2>");
         out.println("<table border='1' cellpadding='8'>");
         out.println("<tr><th>Subject</th><th>Marks</th></tr>");
@@ -32,6 +31,9 @@ public class Test extends HttpServlet
         out.println("<tr><td><b>Total</b></td><td><b>" + total + "</b></td></tr>");
         out.println("<tr><td><b>Average</b></td><td><b>" + average + "</b></td></tr>");
         out.println("</table>");
+        out.println("<hr>");
+        out.println("<footer><p>@24071A05F0</p></footer>");
         out.println("</body></html>");
         out.close();
     }
+}
